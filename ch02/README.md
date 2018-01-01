@@ -20,7 +20,7 @@
   
 ## 练习2.7
 * (a) 该行表示"Who goes with Fergus?空行"
-* (b) 31.4的long double浮点数
+* (b) 31.4的long double浮点数
 * (c) 
 * (d) 3.14的long double浮点数
   
