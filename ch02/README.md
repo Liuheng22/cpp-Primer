@@ -25,7 +25,7 @@
 * (d) 3.14的long double浮点数
  
 ## 练习2.8
-```
+```c++
 #include<iostream>
 using namespace std;
 
