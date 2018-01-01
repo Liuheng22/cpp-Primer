@@ -19,9 +19,9 @@
 # 没区别，第一组是10进制表示的字面量，mouth = 9，day = 7;而第二组用的是后面8进制表示的，mouth = 9，day = 7。
   
 ## 练习2.7
-# (a) 该行表示"Who goes with Fergus?空行"
-  (b) 31.4的long double浮点数
-  (c) 
-  (d) 3.14的long double浮点数
+* (a) 该行表示"Who goes with Fergus?空行"
+* (b) 31.4的long double浮点数
+* (c) 
+* (d) 3.14的long double浮点数
   
   
