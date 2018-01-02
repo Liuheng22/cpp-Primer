@@ -38,13 +38,16 @@ int main()
 }
 ```
 ## 练习2.9
-*  （a）输入流不能用于初始化。
+*  （a）应该先定义再使用。
+>  int input_value = 0;cin >> input_value;
 *  （b）列表初始化，丢失信息，崩溃。
-*  （c）程序运行从左至又，未初始化的变量不能用来初始化。
-*  （d）i = 3。
- 
+>  double i = {3.14};
+*  （c）在为salary赋值的时候，wage未定义。
+>  double  wage = 9999.99;double salary = wage;
+*  （d）不会崩溃，但是会丢失信息，i = 3。
+>  double i = 3.14;
 ## 练习2.10
 *  global_str 初始化一个空串。
-*  global_int 未初始化，内部是随机数。
-*  local_int 未初始化，变量未定义成功。
-*  local_str 初始化一个空串。
+*  global_int 全局变量，默认初始化为0。
+*  local_int 未初始化，变量未定义成功（随机初始化）。
+*  local_str 初始化一个空串，与类相关。
