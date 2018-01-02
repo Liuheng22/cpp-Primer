@@ -44,7 +44,7 @@ int main()
 *  （d）i = 3。
  
 ## 练习2.10
-* global_str 初始化一个空串。
-* global_int 未初始化，内部是随机数。
-* local_int 未初始化，变量未定义成功。
-* local_str 初始化一个空串。
+*  global_str 初始化一个空串。
+*  global_int 未初始化，内部是随机数。
+*  local_int 未初始化，变量未定义成功。
+*  local_str 初始化一个空串。
