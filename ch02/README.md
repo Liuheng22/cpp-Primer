@@ -115,3 +115,5 @@ int main()
 * v2为顶层const,v1为顶层const；p1为都不是，r1也都不是。p2是底层const，p3既为底层又为顶层const。
 ## 练习2.31
 * 第一句合法，这里v2为顶层变量，因此不改变，相当于将将v2的值拷贝给v1；第二句不合法，p2为底层const，const不能拷贝给非const变量。第三句合法。第四句不合法，p3为底层const也为顶层const，不能拷贝给int。
+## 练习2.32
+* 不合法，应该改为Nullptr。
