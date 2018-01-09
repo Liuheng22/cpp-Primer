@@ -125,3 +125,6 @@ int main()
 * c类型为int；d为int引用，绑定在a上；c为4；d=4;
 ## 练习2.37
 * c为int类型，3；d为int型引用，与a绑定，3。
+## 练习2.38
+* auto是将变量初始化的数据的类型赋给变量，并且将值赋给变量，而且对于底层const有影响，const可以赋给非const，但是反过来不行，而且引用给对于auto看过去是透明的，只能看到引用绑定的变量。decltype是将表达式的结果类型给变量，但是不会把表达式的值赋给变量。而decltype是对于const可以定义的，无论这个表达式中变量为底层const还是顶层const。
+> inta = 1,*b = &a;auto c = *b;decltype (*b) d = a;
