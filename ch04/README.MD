@@ -67,3 +67,17 @@
 * 会不同机器中int的长度不停，可能小于27位，造成错误。
 ## 练习4.27
 * （a）3 （b）7 （c）1 （d）1
+## 练习4.29
+* 10
+* 未定义，由于地址长度和int长度不一定。
+## 练习4.30
+* （a）sizeof （x）+y （b）sizeof(p->men[1])（c）sizeof(a)<b（d）sizeof(f()).
+## 练习4.31
+* 因为，后置运算符，会产生一个副本，占用内存。使用后置运算符，不需要修改代码。
+## 练习4.32
+* 对于有5个元素的int数组，遍历数组元素。
+## 练习4.33
+* someValue值为true，x，y加1。否则x,y减1。
+## 练习4.34
+* （a）float到bool （b）ival先从int转float,与fval相加转为double赋值给dval （c）ival与cval相乘，cval转为int型，在与dval相加，转为double。
+## 练习4.35
