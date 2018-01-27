@@ -82,3 +82,7 @@
 * （a）float到bool （b）ival先从int转float,与fval相加转为double赋值给dval （c）ival与cval相乘，cval转为int型，在与dval相加，转为double。
 ## 练习4.35
 * （a）'a'转换成int型，然后再转换成char类型。（b）ival会转换成double型，然后ui转换成double，结果转换成float。（c）fval提升为double，然后ui转化为double，结果存在dval,为double型。（d）由于加法是左结合律，因此，fval转换为double,相加为double，再相加为double,然后结果转为char。
+## 练习4.37
+* （a）pv = static_cast<void*>(ps) （b）i = static<int>(*pc) （c）pv = static_cast<void*>(&d) （d）pc = static_cast<char*>(pv)
+## 练习4.38
+*  j/i的结果强制转换成double类型。
