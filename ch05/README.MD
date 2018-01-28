@@ -21,8 +21,8 @@
         int ival;
         if(ival = get_value())
             cout << "ival="<<ival<<endl;
-        if(!ival)
-            cout << "ival=0\n";
+        else
+            cout << "ival=0\n";
    （d）//赋值给ival为0，则条件判断始终未false，无意义。
         if(ival==0)
            ival = get_value();
